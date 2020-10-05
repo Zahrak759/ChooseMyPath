@@ -1,0 +1,35 @@
+h1 {
+  color: white;
+  font-family:sans-serif;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  font-family:sans-serif;
+  position: absolute;
+  top: 220px;
+  left: 80px;
+}
+h3 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+}
+.box {
+  position: absolute;
+  top: 80px;
+  left: 320px;
+  width: 50%;
+  height: 100px;
+  border: 4px;
+}
+.hello{
+  position: absolute;
+  top: 300px;
+  left: 20px;
+}
