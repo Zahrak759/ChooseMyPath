@@ -120,7 +120,7 @@ h3 {
 	left: 700px;
 	width: 30%;
 	height: 350px;
-	background-image: url(kidnapper.png);
+	background-image: url(question.png);
 	background-size: 100%;
 	transition: content, background-image;
 }
