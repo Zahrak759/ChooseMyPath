@@ -67,15 +67,16 @@ h3 {
 
 .foreststory	{
 	position: absolute;
-	color: white;
+	color: black;
 	top: 250px;
 	left: 350px;
 	width: 60%;
+  font-family:sans-serif;
 }
 
 .clown	{
 	position: absolute;
-	top: 300px;
+	top: 320px;
 	left: 320px;
 	width: 30%;
 	height: 350px;
@@ -97,7 +98,7 @@ h3 {
 
 .grandma	{
 	position:absolute;
-	top: 300px;
+	top: 320px;
 	left: 700px;
 	width: 30%;
 	height: 350px;
@@ -136,11 +137,12 @@ h3 {
 .winnertext	{
 	position: absolute;
 	top: 250px;
-	left: 500px;
+	left: 450px;
 	width: 40%;
 	height: 300px;
-	color: white;
-
+	color: black;
+  text-align: center;
+  font-family:sans-serif;
 }
 
 .winnerphoto	{
@@ -152,10 +154,12 @@ h3 {
 .losertext	{
 	position: absolute;
 	top: 250px;
-	left: 500px;
+	left: 450px;
 	width: 40%;
 	height: 300px;
-	color: white;
+	color: black;
+  text-align: center;
+  font-family:sans-serif;
 
 }
 
