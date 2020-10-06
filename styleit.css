@@ -57,6 +57,13 @@ h3 {
   left: 20px;
 }
 
+.path	{
+	color: white;
+	text-align: center;
+	top: 200px;
+	left: 620px;
+}
+
 .clown	{
 	position: absolute;
 	top: 300px;
