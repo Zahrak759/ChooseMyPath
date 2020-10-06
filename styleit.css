@@ -56,3 +56,27 @@ h3 {
   top: 300px;
   left: 20px;
 }
+
+.clown	{
+	position: absolute;
+	top: 300px;
+	left: 320px;
+	width: 30%;
+	height: 350px;
+	background-image: url(clown.png);
+	transition: content, background-image;
+}
+
+.clown	.phrase{
+	transform: translateY(-65px);
+}
+
+
+.clown:hover	{
+	
+	background-image: url(boysuccess.png);
+}
+
+.clown:hover .phrase:after	{
+	content: "Congrats! John got a hamburger!!";
+}
