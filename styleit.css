@@ -195,7 +195,7 @@ h3 {
 .losertext	{
 	position: absolute;
 	top: 250px;
-	left: 450px;
+	left: 430px;
 	width: 40%;
 	height: 300px;
 	color: black;
@@ -206,6 +206,6 @@ h3 {
 
 .loserphoto	{
 	position: absolute;
-	top: 375px;
+	top: 350px;
 	left: 550px;
 }
