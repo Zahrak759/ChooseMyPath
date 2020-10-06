@@ -1,8 +1,26 @@
 h1 {
-  color: white;
+  color: transparent;
   font-family:sans-serif;
   text-align: center;
   font-size: 50px;
+  background-image: linear-gradient(to right , #f00,#ff0,#0ff,#0f0,#00f);
+  -webkit-background-clip: text;
+  animation: animate 10s linear infinite;
+  background-size: 1000%;
+}
+@keyframes animate {
+  0%
+  {
+    background-position: 0% 100%;
+  }
+  50%
+  {
+    background-position: 100% 0%;
+  }
+  100%
+  {
+    background-position: 0% 100%;
+  }
 
 }
 
@@ -25,9 +43,14 @@ h3 {
   top: 80px;
   left: 320px;
   width: 50%;
-  height: 100px;
+  height: 120px;
   border: 4px;
+  transition: background-color 1s ease;
 }
+.box:hover {
+   background-color: yellow;
+}
+
 .hello{
   position: absolute;
   top: 300px;
