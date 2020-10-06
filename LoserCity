@@ -31,11 +31,11 @@
 	 
 	 <h2 class = "path"> City Path </h2> 
 	<p class = "losertext">
-	 John is eaten by squirrels. <br/>
+	 John is now kiddnapped. <br/>
 	 <A href = "homepage.html"> Click here to play again! </A>
 	 </p>
 	 <div class = "loserphoto">
-	 <IMG src="boysquirrel-preview.png" height = "60%" width = "60%">
+	 <IMG src="kidnapper.png" height = "60%" width = "60%">
 	 </div>
 	 </body>
 	 </html>
