@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Choose Your Path </title>
+  <link rel="stylesheet" href="styleit.css"/>
+  </head>
+<style>
+  body {
+    background-image: url(Sun.png), url(sky.jpeg);
+    background-position: top left, middle;
+    background-repeat: no-repeat;
+    background-size: 20%, 100%;
+  }
+
+  </style>
+  <body>
+
+    <h1> Choose Your Path </h1>
+    <h2>Hi! I'm John</h2>
+    <div class="box">
+      <h3>John is a man of little means.
+         John is hungry. Johns favorite food is hamburgers and
+       he wants to go buy one. The only problem is John suffers from a crippling
+       fear of decision making. That is where we come in. Please assist John on
+       his adventure to acquire a hamburger.<h3>
+    </div>
+
+    <div class="hello">
+      <img src="boy.png" alt="boy" height="60%" width="60%">
+     </div>
+	 
+	 <h2 class = "path"> City Path </h2> 
+	<p class = "losertext">
+	 John is eaten by squirrels. <br/>
+	 <A href = "homepage.html"> Click here to play again! </A>
+	 </p>
+	 <div class = "loserphoto">
+	 <IMG src="boysquirrel-preview.png" height = "60%" width = "60%">
+	 </div>
+	 </body>
+	 </html>
