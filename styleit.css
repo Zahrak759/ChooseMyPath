@@ -114,6 +114,25 @@ h3 {
 	background-image: url(question.png);
 }
 
+.kidnapper	{
+	position:absolute;
+	top: 300px;
+	left: 700px;
+	width: 30%;
+	height: 350px;
+	background-image: url(kidnapper.png);
+	background-size: 100%;
+	transition: content, background-image;
+}
+
+.kidnapper	.gmaphrase	{
+	transform: translateY(-65px);
+}
+
+.kidnapper:hover	{
+	background-image: url(question.png);
+}
+
 .winnertext	{
 	position: absolute;
 	top: 250px;
