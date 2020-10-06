@@ -80,14 +80,11 @@ h3 {
 }
 
 
-.clown:active {
+.clown:hover {
 	
-	background-image: url(boysuccess.png);
+	background-image: url(question.png);
 }
 
-.clown:active .phrase:after	{
-	content: "Congrats! John got a hamburger!!";
-}
 
 .grandma	{
 	position:absolute;
@@ -104,10 +101,36 @@ h3 {
 	transform: translateY(-65px);
 }
 
-.grandma:active	{
-	background-image: url(kidnapper.png);
+.grandma:hover	{
+	background-image: url(question.png);
 }
 
-.grandma:active	.gmaphrase:after	{
-	content: "Oh no! You have been kidnapped!"
+.winnertext	{
+	position: absolute;
+	top: 250px;
+	left: 450px;
+	width: 40%;
+	height: 300px;
+	
+}
+
+.winnerphoto	{
+	position: absolute;
+	top: 375px;
+	left: 575px;
+}
+
+.losertext	{
+	position: absolute;
+	top: 250px;
+	left: 450px;
+	width: 40%;
+	height: 300px;
+	
+}
+
+.loserphoto	{
+	position: absolute;
+	top: 375px;
+	left: 525px;
 }
