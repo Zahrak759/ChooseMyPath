@@ -74,6 +74,28 @@ h3 {
   font-family:sans-serif;
 }
 
+.city	{
+	position: absolute;
+	top: 320px;
+	left: 320px;
+	width: 30%;
+	height: 350px;
+	background-image: url(city.png);
+	background-size: 100%;
+	transition: content, background-image;
+}
+
+.city	.phrase{
+	transform: translateY(-65px);
+}
+
+
+.city:hover {
+
+	background-image: url(question.png);
+}
+
+
 .clown	{
 	position: absolute;
 	top: 320px;
@@ -95,6 +117,25 @@ h3 {
 	background-image: url(question.png);
 }
 
+
+.forest	{
+	position:absolute;
+	top: 320px;
+	left: 700px;
+	width: 30%;
+	height: 350px;
+	background-image: url(forest.png);
+	background-size: 100%;
+	transition: content, background-image;
+}
+
+.forest	.gmaphrase	{
+	transform: translateY(-65px);
+}
+
+.forest:hover	{
+	background-image: url(question.png);
+}
 
 .grandma	{
 	position:absolute;
