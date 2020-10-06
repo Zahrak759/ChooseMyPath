@@ -64,6 +64,7 @@ h3 {
 	width: 30%;
 	height: 350px;
 	background-image: url(clown.png);
+	background-size: 100%;
 	transition: content, background-image;
 }
 
@@ -72,11 +73,34 @@ h3 {
 }
 
 
-.clown:hover	{
+.clown:active {
 	
 	background-image: url(boysuccess.png);
 }
 
-.clown:hover .phrase:after	{
+.clown:active .phrase:after	{
 	content: "Congrats! John got a hamburger!!";
+}
+
+.grandma	{
+	position:absolute;
+	top: 300px;
+	left: 700px;
+	width: 30%;
+	height: 350px;
+	background-image: url(grandma.png);
+	background-size: 100%;
+	transition: content, background-image;
+}
+
+.grandma	.gmaphrase	{
+	transform: translateY(-65px);
+}
+
+.grandma:active	{
+	background-image: url(kidnapper.png);
+}
+
+.grandma:active	.gmaphrase:after	{
+	content: "Oh no! You have been kidnapped!"
 }
