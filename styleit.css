@@ -108,7 +108,7 @@ h3 {
 .winnertext	{
 	position: absolute;
 	top: 250px;
-	left: 450px;
+	left: 500px;
 	width: 40%;
 	height: 300px;
 	
@@ -117,13 +117,13 @@ h3 {
 .winnerphoto	{
 	position: absolute;
 	top: 375px;
-	left: 575px;
+	left: 600px;
 }
 
 .losertext	{
 	position: absolute;
 	top: 250px;
-	left: 450px;
+	left: 500px;
 	width: 40%;
 	height: 300px;
 	
@@ -132,5 +132,5 @@ h3 {
 .loserphoto	{
 	position: absolute;
 	top: 375px;
-	left: 525px;
+	left: 550px;
 }
